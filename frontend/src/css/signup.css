@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+  }
+  
+  form{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input{
+    font-size: 10px;
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: black;
+  }
+
+  button{
+    font-size: 10px;
+    width: 10%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    transition: all .4s;
+  }
+  
+  button:hover{
+    color: white;
+    background-color: blueviolet;
+    border: solid white;
+    cursor: pointer;
+  }
+  
